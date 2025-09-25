@@ -29,3 +29,6 @@ jobs:
 
       - name: mostrar version de node
         run: node -v
+      
+      - name: verificar formato
+        run: pnpm lint
