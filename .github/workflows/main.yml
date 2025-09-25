@@ -10,6 +10,13 @@ jobs:
 
 
     steps:
+
+    - name: crear careta
+      run: mkdir carpeta
+
     - name: mostrar directorios
       run: ls
+      
+    - name: mostrar fecha
+      run: date
     
